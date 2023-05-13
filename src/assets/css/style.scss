@@ -1,0 +1,41 @@
+@import '~bootstrap/scss/bootstrap';
+@import './utilities.scss';
+@import './element.scss';
+@import './element-dark.scss';
+@font-face {
+    font-family: SpaceMono;
+    src: url('../iconfont/spacemono.ttf');
+}
+.font-face-space-mono {
+    font-family: SpaceMono;
+}
+.router-views {
+    min-height: 94vh;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    // background: #17082b;
+    background: #17082b;
+    // background: #18142C;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+p {
+    margin: 0 !important;
+}
+// button {
+//     background: transparent;
+//     border: none;
+//     outline: none;
+// }
+@media screen and (max-width: 425px) {
+    .sm-hide {
+        display: none;
+    }
+}

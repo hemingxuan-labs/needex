@@ -1,0 +1,11 @@
+.el-input__wrapper.is-focus {
+    box-shadow: 0 0 0 1px var(--theme-color-purple) inset;
+}
+.el-button[type='primary'] {
+    height: 40px !important;
+    background-color: var(--theme-color-purple) !important;
+    border-color: var(--theme-color-purple) !important;
+}
+.el-button.is-disabled {
+    opacity: 0.6;
+}
